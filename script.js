@@ -48,9 +48,9 @@ async function lottery() {
         document.getElementById('result').innerHTML = '抽選中...';
         await sleep(3000);  // 3秒待機
 
-        document.getElementById('result').innerHTML = `<text class="highlight">${winner} さんが ${
+        document.getElementById('result').innerHTML = `<text class="highlight"><span color="#F3306F">${winner}</span> さんが <span color="#F3306F">${
             teamNames.length > 0 ? selectedTeam : 'どれかのチーム'
-        } に選ばれました！</text>`;
+        } </span>に選ばれました！</text>`;
     } else {
         alert('名前を入力してください。チーム名が入力されていない場合は、入力されているチームから抽選が行われます。');
         return;
