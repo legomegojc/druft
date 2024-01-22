@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+    <title>抽選</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>PicoPOLPO</h1>
+        <h2>1周年記念企画「ドラフト杯」抽選結果</h2>
+
+        <p id="result">ここに結果が表示されます。</p>
+
+        <button onclick="lottery()">抽選する</button>
+        <button onclick="resetParticipants()">参加者とチームをリセット</button>
+
+        <label for="participant" class="name">参加者の名前:</label>
+        <input type="text" id="participant" placeholder="名前を入力">
+
+        <div id="teamInputs">
+            <label for="team1">チーム1の名前:</label>
+            <input type="text" id="team1" placeholder="チーム1の名前を入力">
+
+            <label for="team2">チーム2の名前:</label>
+            <input type="text" id="team2" placeholder="チーム2の名前を入力">
+
+            <label for="team3">チーム3の名前:</label>
+            <input type="text" id="team3" placeholder="チーム3の名前を入力">
+
+            <label for="team4">チーム4の名前:</label>
+            <input type="text" id="team4" placeholder="チーム4の名前を入力">
+
+            <label for="team5">チーム5の名前:</label>
+            <input type="text" id="team5" placeholder="チーム5の名前を入力">
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
