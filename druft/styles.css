@@ -1,0 +1,94 @@
+/*.wf-roundedmplus1c { font-family: "M PLUS Rounded 1c"; }*/
+/* .wf-notosansjapanese { font-family: "Noto Sans JP"; } */
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap'); */
+body {
+    font-family: '筑紫A丸ゴシック', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    /* font-family: 'Amatic SC', cursive; */
+    color: #333;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+h2 {
+    color: #333;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 0 8px 0 0;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #FFA171;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #FF9E86;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#result {
+    padding: auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 1rem 2rem;
+    border-top: 6px double;
+    border-bottom: 6px double;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+}
+
+.highlight {
+    animation: shake 0.5s ease-in-out;
+    display: inline-block;
+    color: #F3306F;
+    font-weight: bold;
+    white-space: nowrap;
+}
